@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCTV Operations Dashboard</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <script type="text/babel">
+    // PASTE THE ENTIRE REACT CODE FROM ARTIFACT HERE
+    // Replace window.storage with localStorage:
+    // Change: await window.storage.get('ops-data-v2')
+    // To: localStorage.getItem('ops-data-v2')
+    // Change: await window.storage.set('ops-data-v2', JSON.stringify(dailyData))
+    // To: localStorage.setItem('ops-data-v2', JSON.stringify(dailyData))
+    
+    // Copy the ENTIRE component code from the artifact above
+    // Then at the bottom add:
+    ReactDOM.render(<OperationsDashboard />, document.getElementById('root'));
+  </script>
+</body>
+</html>
